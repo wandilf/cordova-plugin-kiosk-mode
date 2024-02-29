@@ -99,6 +99,7 @@ public class KioskModeActivity extends CordovaActivity {
             this.getWindow()
                 .getDecorView()
                 .setSystemUiVisibility(
+                    View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN |
                     View.STATUS_BAR_VISIBLE |
                     View.SYSTEM_UI_FLAG_VISIBLE
                 );
