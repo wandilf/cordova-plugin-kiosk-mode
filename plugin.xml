@@ -34,7 +34,6 @@
             <activity
                 android:name="de.amicaldo.cordova.plugin.KioskModeActivity"
                 android:keepScreenOn="true"
-                android:theme="@android:style/Theme.DeviceDefault.NoActionBar"
             ></activity>
         </edit-config>
 
