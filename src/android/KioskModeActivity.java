@@ -105,7 +105,7 @@ public class KioskModeActivity extends CordovaActivity {
                     View.SYSTEM_UI_FLAG_HIDE_NAVIGATION |
                     View.SYSTEM_UI_FLAG_FULLSCREEN |
                     View.STATUS_BAR_VISIBLE |
-                    View.SYSTEM_UI_FLAG_IMMERSIVE
+                    View.SYSTEM_UI_FLAG_VISIBLE
                 );
         } else {
             this.getWindow()
