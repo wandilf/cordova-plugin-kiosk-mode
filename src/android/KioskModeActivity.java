@@ -99,7 +99,7 @@ public class KioskModeActivity extends CordovaActivity {
             this.getWindow()
                 .getDecorView()
                 .setSystemUiVisibility(
-                    View.SYSTEM_UI_FLAG_LAYOUT_HIDE_NAVIGATION |
+                    View.FEATURE_ACTION_BAR_OVERLAY |
                     View.SYSTEM_UI_FLAG_HIDE_NAVIGATION |
                     View.STATUS_BAR_VISIBLE |
                     View.SYSTEM_UI_FLAG_VISIBLE
