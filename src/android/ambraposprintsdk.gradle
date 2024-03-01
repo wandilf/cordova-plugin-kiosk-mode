@@ -1,0 +1,21 @@
+repositories{
+    flatDir{
+        dirs 'libs'
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+}
+
+android {
+    packagingOptions {
+        exclude 'META-INF/NOTICE'
+        exclude 'META-INF/LICENSE'
+    }
+      buildFeatures {
+    // The first line should already be in your project!
+    compose = true
+    buildConfig = true
+    }
+}
