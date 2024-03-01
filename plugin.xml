@@ -74,6 +74,6 @@
             src="src/android/MyPackageReplacedEventReceiver.java"
             target-dir="src/de/amicaldo/cordova/plugin"
         />
-        <framework src="src/android/ambrapossdk.gradle" custom="true" type="gradleReference" />
+        <framework src="src/android/ambraposprintsdk.gradle" custom="true" type="gradleReference" />
     </platform>
 </plugin>
