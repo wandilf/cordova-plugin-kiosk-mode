@@ -14,8 +14,6 @@ android {
         exclude 'META-INF/LICENSE'
     }
       buildFeatures {
-    // The first line should already be in your project!
-    compose = true
     buildConfig = true
     }
 }
